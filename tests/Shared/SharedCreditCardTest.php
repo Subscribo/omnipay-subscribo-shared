@@ -13,15 +13,6 @@ use Omnipay\Common\CreditCardTest;
  */
 class SharedCreditCardTest extends CreditCardTest
 {
-    public function setUp()
-    {
-        $this->card = new CreditCard([
-            'number' => '4111111111111111',
-            'expiryMonth' => '4',
-            'expiryYear' => date('Y')+2,
-        ]);
-    }
-
     public function testGetShippingContactDifferences()
     {
         $card =  new CreditCard;

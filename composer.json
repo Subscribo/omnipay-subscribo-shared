@@ -25,10 +25,10 @@
     },
     "require": {
         "php": ">=5.4",
-        "omnipay/common": "~2.3.2 || ~2.4.1"
+        "omnipay/common": "~2.5.0"
     },
     "require-dev": {
-        "omnipay/tests": "~2.0.2",
+        "omnipay/tests": "~2.0",
         "phpunit/phpunit": "<5.0",
         "egeloen/http-adapter": "~0.8.0 || ~1.0.1",
         "psr/http-message": "~1.0",
